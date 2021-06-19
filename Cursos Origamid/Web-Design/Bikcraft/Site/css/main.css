@@ -1,6 +1,6 @@
 /* -----------------------------------Configuração Base----------------------------------*/
 :root {
-    font: 10px Arial, Helvetica, sans-serif;
+    font: 14px Arial, Helvetica, sans-serif;
     color: #000000;
 }
 body {
@@ -11,49 +11,44 @@ body {
     width: 1400px;
     text-align: center;
 }
-header {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    background-color: #9D32C9;
-}
-ul {
-    margin: 10px 0px 10px 38%;
-}
-li {
-    list-style: none;
-    float: right;
-    margin: 14.5px 1px;
-    background-color: #9D32C9;
-}
-li a {
-    margin: 0 2px;
-    padding: 10px 4px;
-}
 a {
     color: #9D32C9;
     text-decoration: none;
     font-weight: 700;
 }
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr {
+    width: 55px;
+    border: 1.9px solid #000000;
+    border-radius: 1px;
+    display: block;
+}
+.btn {
+    border: 4px solid #9D32C9;
+    border-radius: 1px;
+    padding: 10px 24px;
+}
 
 /* ---------------------------Fonte--------------------------- */
 h1 {
-    font-size: 4.8rem;
+    font-size: 48px;
+    margin: 0 0 2.5px 0;
+    padding-top: 80px;
 }
-
 h2 {
-    font-size: 2.4rem;
+    font-size: 24px;
+    margin: 0 0 2.5px 0;
+    padding-top: 30px;
 }
-
 h3 {
-    font-size: 1.8rem;
+    font-size: 18px;
+    margin: 0 0 2.5px 0;
+    padding-top: 30px;
 }
 
-h4 {
-    font-size: 1.4rem;
-}
-
-/* ---------------------------Fonte classes--------------------------- */
+/* -------------------------Fonte classes------------------------- */
 .purple {
     color: #9D32C9;
 }
@@ -64,16 +59,109 @@ h4 {
     color: #000000;
 }
 
-
 .pre-contato {
     background-color: #000000;
 }
 
+/* ----------------------------------FIM da Configuração Base---------------------------------- */
 
-/* -----------------------------------FIM da Configuração Base----------------------------------*/
+/* -------------------------------------------------------------------------------------------- */
+
+/* -----------------------------------Cabeçalho + Introdução----------------------------------- */
+
+/* -------------------------Header------------------------- */
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #9D32C9;
+    margin: 0;
+}
+ul {
+    margin: 10px 0px 10px 33%;
+}
+li {
+    list-style: none;
+    float: right;
+    margin: 12px 1px;
+    background-color: #9D32C9;
+}
+li a {
+    margin: 0 2px;
+    padding: 10px 4px;
+}
 #marca-header{
-    margin: 1% 0 0 16.42857142857143%;
+    margin: 1% 0 0 16.42%;
 }
 header a img {
     height: 35px;
 }
+/* -------------------------Introdução------------------------- */
+.intro {
+    background-color: #D9E0E6;
+    height: 380px;
+}
+.intro h4 {
+    margin: 0 0 75px 0;
+}
+.intro p {
+    margin: 0 0 10px 0;
+}
+hr .hr-cima {
+    margin-top: 10px;
+}
+/* ------------------------------------FIM da Configuração Header e Introdução-------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------PRODUTOS------------------------------------------------ */
+
+.produtos {
+    width: 1400px;
+    height: 616px;
+}
+.produtos-home {
+    width: 300px;
+    display: inline-block;
+    height: 325px;
+    margin: 0 20px 0 0;
+    background-color: #9D32C9;
+}
+.produtos-home img {
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+.pre-btn {
+    margin: 80px 0 30px 0;
+}
+div #last {
+    margin-right: 0;
+}
+/* -----------------------------------------FIM da Configuração PRODUTOS-------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------PORTFOLIO------------------------------------------------ */
+
+.portfolio {
+    background-color: #000000;
+    height: 820px;
+}
+.portfolio .images {
+    height: auto;
+    background-color: #D9E0E6;
+    text-align: center;
+}
+.images div {
+    display: inline-block;
+    margin: 175px 20px 175px 0;
+    width: 300px;
+    height: 300px;
+    background-color: #9D32C9;
+}
+/* -----------------------------------------FIM da Configuração PORTFOLIO------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------QUALIDADE------------------------------------------------ */
