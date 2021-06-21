@@ -30,24 +30,31 @@ hr {
     border-radius: 1px;
     padding: 10px 24px;
 }
+.alinhado {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
 
 /* ---------------------------Fonte--------------------------- */
 h1 {
     font-size: 48px;
     margin: 0 0 2.5px 0;
-    padding-top: 80px;
+    padding: 80px 0 0 0;
 }
 h2 {
     font-size: 24px;
     margin: 0 0 2.5px 0;
-    padding-top: 30px;
+    padding: 30px 0 0 0;
 }
 h3 {
     font-size: 18px;
     margin: 0 0 2.5px 0;
-    padding-top: 30px;
+    padding: 30px 0 0 0;
 }
-
+h4 {
+    margin: 0 0 2.5px 0;
+}
 /* -------------------------Fonte classes------------------------- */
 .purple {
     color: #9D32C9;
@@ -58,9 +65,14 @@ h3 {
 .black {
     color: #000000;
 }
-
 .pre-contato {
     background-color: #000000;
+}
+.left {
+    text-align: left;
+}
+#last {
+    margin-right: 0;
 }
 
 /* ----------------------------------FIM da Configuração Base---------------------------------- */
@@ -121,9 +133,6 @@ hr .hr-cima {
     height: 616px;
 }
 .produtos-home {
-    width: 300px;
-    display: inline-block;
-    height: 325px;
     margin: 0 20px 0 0;
     background-color: #9D32C9;
 }
@@ -135,9 +144,7 @@ hr .hr-cima {
 .pre-btn {
     margin: 80px 0 30px 0;
 }
-div #last {
-    margin-right: 0;
-}
+
 /* -----------------------------------------FIM da Configuração PRODUTOS-------------------------------------- */
 
 /* ----------------------------------------------------------------------------------------------------------- */
@@ -148,16 +155,19 @@ div #last {
     background-color: #000000;
     height: 820px;
 }
+.portfolio p {
+    margin: 10px 0 30px 0;
+}
+.portfolio hr {
+    border-color: #9D32C9;
+}
 .portfolio .images {
     height: auto;
     background-color: #D9E0E6;
     text-align: center;
 }
 .images div {
-    display: inline-block;
     margin: 175px 20px 175px 0;
-    width: 300px;
-    height: 300px;
     background-color: #9D32C9;
 }
 /* -----------------------------------------FIM da Configuração PORTFOLIO------------------------------------- */
@@ -165,3 +175,44 @@ div #last {
 /* ----------------------------------------------------------------------------------------------------------- */
 
 /* --------------------------------------------------QUALIDADE------------------------------------------------ */
+
+.qualidade p{
+    margin: 50px 0 30px 0;
+}
+.qualidade img {
+    margin: 70px 0 50px 0;
+}
+.qualidades {
+    margin-right: 20px;
+    background-color: #D9E0E6;
+}
+
+/* -----------------------------------------FIM da Configuração QUALIDADE------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------RODAPÉ-------------------------------------------------- */
+.pre-contato {
+    height: 220px;
+}
+.pre-contato p {
+    padding: 75px 0 0 0;
+}
+.pre-contato hr {
+    border-color: #FFFFFF;
+}
+.rodape hr {
+    border-color: #9D32C9;
+    margin-left: 0;
+}
+.foot {
+    background-color: #D9E0E6;
+    margin-right: 20px;
+    height: 200px;
+}
+#autoral {
+    background-color: #9D32C9;
+    text-align: left;
+    padding: 22px 0 22px 16.42%;
+    margin: 0;
+}
