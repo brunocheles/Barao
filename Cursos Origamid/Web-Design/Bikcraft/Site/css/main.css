@@ -1,60 +1,12 @@
 /* -----------------------------------Configuração Base----------------------------------*/
-:root {
-    font: 14px Arial, Helvetica, sans-serif;
-    color: #000000;
-}
-body {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    height: 100%;
-    width: 1400px;
-    text-align: center;
-}
-a {
-    color: #9D32C9;
-    text-decoration: none;
-    font-weight: 700;
-}
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-hr {
-    width: 55px;
-    border: 1.9px solid #000000;
-    border-radius: 1px;
-    display: block;
-}
 .btn {
     border: 4px solid #9D32C9;
-    border-radius: 1px;
     padding: 10px 24px;
-}
-.alinhado {
-    width: 300px;
-    height: 300px;
-    display: inline-block;
 }
 
 /* ---------------------------Fonte--------------------------- */
-h1 {
-    font-size: 48px;
-    margin: 0 0 2.5px 0;
-    padding: 80px 0 0 0;
-}
-h2 {
-    font-size: 24px;
-    margin: 0 0 2.5px 0;
-    padding: 30px 0 0 0;
-}
-h3 {
-    font-size: 18px;
-    margin: 0 0 2.5px 0;
-    padding: 30px 0 0 0;
-}
-h4 {
-    margin: 0 0 2.5px 0;
-}
+
+
 /* -------------------------Fonte classes------------------------- */
 .purple {
     color: #9D32C9;
@@ -71,10 +23,16 @@ h4 {
 .left {
     text-align: left;
 }
+#first {
+    margin-left: 0;
+}
 #last {
     margin-right: 0;
 }
-
+#header-options {
+    padding: 15px 5px;
+    display: block;
+}
 /* ----------------------------------FIM da Configuração Base---------------------------------- */
 
 /* -------------------------------------------------------------------------------------------- */
@@ -83,67 +41,37 @@ h4 {
 
 /* -------------------------Header------------------------- */
 header {
-    width: 100%;
-    height: 60px;
-    display: flex;
     background-color: #9D32C9;
-    margin: 0;
+    height: 80px;
 }
-ul {
-    margin: 10px 0px 10px 33%;
+header div a {
+    margin: 7px 0;
 }
-li {
-    list-style: none;
+nav ul li{
+    display: inline-block;
     float: right;
-    margin: 12px 1px;
-    background-color: #9D32C9;
+    margin: 8.8px 10px;
 }
-li a {
-    margin: 0 2px;
-    padding: 10px 4px;
-}
-#marca-header{
-    margin: 1% 0 0 16.42%;
-}
-header a img {
-    height: 35px;
-}
+
+
 /* -------------------------Introdução------------------------- */
 .intro {
-    background-color: #D9E0E6;
     height: 380px;
+    background-image: url("../images/bg-intro.jpg");
+    background-size: cover;
 }
-.intro h4 {
-    margin: 0 0 75px 0;
+main {
+    text-align: center;
 }
-.intro p {
-    margin: 0 0 10px 0;
-}
-hr .hr-cima {
-    margin-top: 10px;
-}
+
+
 /* ------------------------------------FIM da Configuração Header e Introdução-------------------------------- */
 
 /* ----------------------------------------------------------------------------------------------------------- */
 
 /* ---------------------------------------------------PRODUTOS------------------------------------------------ */
 
-.produtos {
-    width: 1400px;
-    height: 616px;
-}
-.produtos-home {
-    margin: 0 20px 0 0;
-    background-color: #9D32C9;
-}
-.produtos-home img {
-    background-color: #000000;
-    padding: 0;
-    margin: 0;
-}
-.pre-btn {
-    margin: 80px 0 30px 0;
-}
+
 
 /* -----------------------------------------FIM da Configuração PRODUTOS-------------------------------------- */
 
@@ -151,68 +79,18 @@ hr .hr-cima {
 
 /* --------------------------------------------------PORTFOLIO------------------------------------------------ */
 
-.portfolio {
-    background-color: #000000;
-    height: 820px;
-}
-.portfolio p {
-    margin: 10px 0 30px 0;
-}
-.portfolio hr {
-    border-color: #9D32C9;
-}
-.portfolio .images {
-    height: auto;
-    background-color: #D9E0E6;
-    text-align: center;
-}
-.images div {
-    margin: 175px 20px 175px 0;
-    background-color: #9D32C9;
-}
+
+
 /* -----------------------------------------FIM da Configuração PORTFOLIO------------------------------------- */
 
 /* ----------------------------------------------------------------------------------------------------------- */
 
 /* --------------------------------------------------QUALIDADE------------------------------------------------ */
 
-.qualidade p{
-    margin: 50px 0 30px 0;
-}
-.qualidade img {
-    margin: 70px 0 50px 0;
-}
-.qualidades {
-    margin-right: 20px;
-    background-color: #D9E0E6;
-}
+
 
 /* -----------------------------------------FIM da Configuração QUALIDADE------------------------------------- */
 
 /* ----------------------------------------------------------------------------------------------------------- */
 
 /* ---------------------------------------------------RODAPÉ-------------------------------------------------- */
-.pre-contato {
-    height: 220px;
-}
-.pre-contato p {
-    padding: 75px 0 0 0;
-}
-.pre-contato hr {
-    border-color: #FFFFFF;
-}
-.rodape hr {
-    border-color: #9D32C9;
-    margin-left: 0;
-}
-.foot {
-    background-color: #D9E0E6;
-    margin-right: 20px;
-    height: 200px;
-}
-#autoral {
-    background-color: #9D32C9;
-    text-align: left;
-    padding: 22px 0 22px 16.42%;
-    margin: 0;
-}
