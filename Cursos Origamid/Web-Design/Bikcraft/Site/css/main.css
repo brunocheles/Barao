@@ -1,24 +1,62 @@
-/* -----------------------------------Configuração Base----------------------------------*/
+/* -------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------Configuração Base-------------------------------------*/
+:root {
+    font: 10px Arial, Helvetica, sans-serif;
+    color: #0A0A0A;
+}
+body {
+    text-align: center;
+    background-color: #F5F5F5;
+}
 .btn {
     border: 4px solid #9D32C9;
     padding: 10px 24px;
+    font: 1.4rem bold Arial, Helvetica, sans-serif;
+}
+hr {
+    width: 5.5rem;
+    background-color: #0A0A0A;
+    border: none;
+    margin: 2px auto;
+}
+.hr-normal {
+    margin-bottom: 30px;
 }
 
 /* ---------------------------Fonte--------------------------- */
-
+body h1 {
+    font-size: 4.8rem;
+    font-weight: 600;
+}
+body h2 {
+    font-size: 3.6rem;
+    font-weight: 500;   
+}
+body h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+body h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+p {
+    font-family:italic 500 1.4rem/2rem Georgia, 'Times New Roman', Times, serif;
+}
 
 /* -------------------------Fonte classes------------------------- */
 .purple {
     color: #9D32C9;
 }
 .white {
-    color: #FFFFFF;
+    color: #F5F5F5;
 }
 .black {
-    color: #000000;
+    color: #0A0A0A;
 }
 .pre-contato {
-    background-color: #000000;
+    background-color: #0A0A0A;
 }
 .left {
     text-align: left;
@@ -37,12 +75,12 @@
 
 /* -------------------------------------------------------------------------------------------- */
 
-/* -----------------------------------Cabeçalho + Introdução----------------------------------- */
+/* -----------------------------------------Cabeçalho------------------------------------------ */
 
 /* -------------------------Header------------------------- */
 header {
     background-color: #9D32C9;
-    height: 80px;
+    height: 100%;
 }
 header div a {
     margin: 7px 0;
@@ -52,45 +90,64 @@ nav ul li{
     float: right;
     margin: 8.8px 10px;
 }
+nav ul li a {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
 
+/* -----------------------------------FIM da Configuração Header-------------------------------- */
 
-/* -------------------------Introdução------------------------- */
-.intro {
-    height: 380px;
-    background-image: url("../images/bg-intro.jpg");
+/* --------------------------------------------------------------------------------------------- */
+
+/* -----------------------------------------PRE-CONTATO----------------------------------------- */
+.pre-contato {
+    margin-top: 50px;
+    height: 220px;
+    background-image: url("../images/bg-pre-contato.jpg");
     background-size: cover;
 }
-main {
-    text-align: center;
+.pre-contato hr {
+    background-color: #F5F5F5;
+}
+.text-centro {
+    height: 220px;
+}
+.text-centro hr {
+    margin-top: 5px;
+}
+.text-centro .hr-cima {
+    margin: 85px auto 5px;
+}
+.text-centro p {
+    margin-top: 0px;
 }
 
+/* -------------------------------FIM da Configuração PRE-CONTATO------------------------------- */
 
-/* ------------------------------------FIM da Configuração Header e Introdução-------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
 
-/* ----------------------------------------------------------------------------------------------------------- */
-
-/* ---------------------------------------------------PRODUTOS------------------------------------------------ */
-
-
-
-/* -----------------------------------------FIM da Configuração PRODUTOS-------------------------------------- */
-
-/* ----------------------------------------------------------------------------------------------------------- */
-
-/* --------------------------------------------------PORTFOLIO------------------------------------------------ */
-
-
-
-/* -----------------------------------------FIM da Configuração PORTFOLIO------------------------------------- */
-
-/* ----------------------------------------------------------------------------------------------------------- */
-
-/* --------------------------------------------------QUALIDADE------------------------------------------------ */
-
-
-
-/* -----------------------------------------FIM da Configuração QUALIDADE------------------------------------- */
-
-/* ----------------------------------------------------------------------------------------------------------- */
-
-/* ---------------------------------------------------RODAPÉ-------------------------------------------------- */
+/* ----------------------------------------RODAPÉ----------------------------------------------- */
+.rodape{
+    background-color: #0A0A0A;
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+}
+.rodape hr {
+    background-color: #9D32C9;
+    margin: 2px 100% 10px 0;
+    float: left;
+    display: block;
+}
+.rodape .rodape-cont {
+    padding-left: 0;
+}
+.fim {
+    width: 100% ;
+    height: 50px;
+    background-color: #9D32C9;
+}
+.fim p {
+    float: left;
+    margin: 20px 0 0 10px;
+}
