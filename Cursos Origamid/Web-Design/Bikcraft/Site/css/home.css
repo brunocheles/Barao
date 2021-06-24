@@ -1,20 +1,9 @@
-/* -------------------------Introdução------------------------- */
+/* --------------------------Introdução-------------------------- */
 .intro {
     height: 380px;
     background-image: url("../images/bg-intro.jpg");
-    background-size: cover;
 }
-.intro h1{
-    margin-top: 80px;
-}
-.intro h4 {
-    margin: 10px auto 80px;
-}
-
 /* --------------------------Produtos-------------------------- */
-.produtos h3 {
-    margin-top: 40px;
-}
 .produtos h4 {
     margin: 5px;
 }
@@ -33,9 +22,6 @@
 .produtos .icon img {
     margin: 30px auto;
 }
-#pre-btn {
-    margin: 20px auto;
-}
 /* --------------------------Portfólio-------------------------- */
 .portfolio {
     background-color: #0A0A0A;
@@ -45,19 +31,15 @@
     background-color: #9D32C9;
 }
 .portfolio h3 {
-    margin-top: 60px;
     padding-top: 40px;
 }
 .portfolio .foto3 {
     margin-top: 20px;
 }
 .portfolio p {
-    margin: 20px 0 30px;
+    margin: 20px 0;
 }
 /* --------------------------Qualidade-------------------------- */
-.qualidade h3 {
-    margin-top: 40px;
-}
 .qualidade .marca:after {
     background-image: url("../images/linhas.png");
     background-repeat: no-repeat;
@@ -69,7 +51,4 @@
 }
 .qualidade .itens-qualidade {
     margin: 50px auto;
-}
-.itens-qualidade h4 {
-    font-weight: 700;
 }

@@ -1,0 +1,34 @@
+ /* --------------------------Introdução------------------------- */
+.intro{
+    background-image: url("../images/bg-intro-sobre.jpg");
+}
+
+/* --------------------------Section---------------------------- */
+section .sec-cont {
+    text-align: left;
+}
+.sec-cont hr {
+   margin: 2px 100% 30px 0;
+   float: left;
+   display: block;
+}
+.sec-cont .hist {
+   padding-right: 60px;
+}
+section img {
+   margin-top: 60px;
+}
+ 
+ /* --------------------------Qualidade-------------------------- */
+.qualidade .marca:after {
+    background-image: url("../images/linhas.png");
+    background-repeat: no-repeat;
+    width: 642px;
+    height: 81px;
+    position: absolute;
+    top: 73px;
+    left: 159px;
+}
+.qualidade .itens-qualidade {
+    margin: 40px auto;
+}
