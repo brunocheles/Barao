@@ -19,22 +19,12 @@ section .sec-cont {
     background-color: #0A0A0A;
     height: 640px;
 }
-.portfolio hr {
-    background-color: #9D32C9;
-}
-.portfolio h3 {
-    padding-top: 40px;
-}
 .portfolio .foto3 {
     margin-top: 20px;
-}
-.portfolio p {
-    margin: 20px 0;
 }
 .images {
     padding-top: 30px;
 }
-/* --------------------------Pre-contato-------------------------- */
-#pre-contato-port {
-    margin-top: 0;
+#tres-pontos {
+    margin-top: 5px;
 }
