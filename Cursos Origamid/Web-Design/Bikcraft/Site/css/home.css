@@ -40,11 +40,11 @@
 .qualidade .marca:after {
     background-image: url("../images/linhas.png");
     background-repeat: no-repeat;
-    width: 622px;
+    width: 642px;
     height: 81px;
     position: absolute;
     top: 73px;
-    left: 169px;
+    left: 159px;
 }
 .qualidade .itens-qualidade {
     margin: 50px auto;

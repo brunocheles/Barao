@@ -4,7 +4,7 @@
 }
 
 /* ---------------------------Produtos-------------------------- */
-.produto .grid-1-2 {
+.produto .grid-8 {
     margin-top: 20px;
 }
 .titulo-esporte, .titulo-passeio, .titulo-retro, .icone, .foto-esporte, .foto-passeio, .foto-retro, .info {
@@ -86,13 +86,16 @@
     background-color: #292929;
 }
 #pre-li {
-    margin: 30px auto 10px;
+    margin: 15px auto 10px;
 }
 #espec-li p{
-    padding: 3px 0;
+    padding: 5px 0 5px 10px;
 }
 #formulario, #dados {
     margin-top: 20px;
+}
+#dados {
+    line-height: 1.40;
 }
 #dados h4 {
     margin-bottom: 5px;

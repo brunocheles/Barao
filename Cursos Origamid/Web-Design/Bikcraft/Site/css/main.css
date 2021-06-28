@@ -7,14 +7,13 @@
 }
 html {
     line-height: 1.15;
-    width: 100%;
 }
 body {
-    display: block;
     text-align: center;
-    background-color: #F5F5F5;
     margin: 0;
     width: 100%;
+    letter-spacing: 0.5px;
+
 }
 ul {
 	list-style: none;
@@ -39,6 +38,8 @@ hr {
     background-color: #0A0A0A;
     border: none;
     margin: 2px auto;
+    height: 4px;
+    border-radius: 2px;
 }
 .hr-normal {
     margin-bottom: 30px;
@@ -58,9 +59,11 @@ body h2 {
 body h3 {
     font-size: 2.4rem;
     margin-top: 40px;
+    letter-spacing: 3px;
 }
 body h4 {
     font-size: 1.8rem;
+    letter-spacing: 2px;
 }
 body p {
     font: 1.4rem Georgia, 'Times New Roman', Times, serif;
@@ -88,10 +91,6 @@ body p {
 #last {
     margin-right: 0;
 }
-#header-options {
-    padding: 15px 5px;
-    display: block;
-}
 /* ----------------------------------FIM da Configuração Base---------------------------------- */
 
 /* -------------------------------------------------------------------------------------------- */
@@ -101,20 +100,28 @@ body p {
 /* -------------------------Header------------------------- */
 header {
     background-color: #9D32C9;
+    height: 80px;
+}
+header div {
     height: 100%;
 }
-header div a {
-    margin: 7px 0;
+.marca {
+    margin: 10px auto;
+}
+nav ul {
+    height: 80px;
 }
 nav ul li{
     float: right;
-    margin: 8.8px 10px;
-}
-nav ul li a {
-    font-size: 1.4rem;
+    margin: 18px 2px;
 }
 nav ul li a:hover {
     color: #F5F5F5;
+}
+#header-options {
+    display: block;
+    padding: 13.5px 3px;
+    font-size: 1.4rem;
 }
 /* -------------------------------Introdução---------------------------- */
 .intro h1{
@@ -224,8 +231,3 @@ nav ul li a:hover {
     margin: 18px 0 0 10px;
 }
 /* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
-@media (max-width: 960px){
-    header .marca {
-        float: right;
-    }
-}
