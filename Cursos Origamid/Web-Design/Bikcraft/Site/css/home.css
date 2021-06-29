@@ -25,16 +25,23 @@
 /* --------------------------Portfólio-------------------------- */
 .portfolio {
     background-color: #0A0A0A;
-    height: 820px;
+    height: auto;
+    padding-bottom: 30px;
 }
 .portfolio h3 {
     padding-top: 40px;
 }
-.portfolio .foto3 {
-    margin-top: 20px;
-}
 .portfolio p {
     margin: 20px 0;
+}
+.portfolio img{
+    margin-top: 20px;
+}
+.portfolio hr {
+    margin-bottom: 10px;
+}
+.portfolio .foto3 {
+    margin-top: 20px;
 }
 /* --------------------------Qualidade-------------------------- */
 .qualidade .marca:after {
@@ -48,4 +55,16 @@
 }
 .qualidade .itens-qualidade {
     margin: 50px auto;
+}
+/* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
+/* -------------------------TABLETS----------------------- */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+
+}
+/* -------------------------CELULARES----------------------- */
+@media only screen and (max-width: 787px) {
+    .intro {
+        background-image: url("../images/bg-intro-menor.jpg");
+    }
 }
