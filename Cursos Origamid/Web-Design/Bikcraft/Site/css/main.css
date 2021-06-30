@@ -305,4 +305,9 @@ nav ul li{
     .rodape-cont div {
         margin: 0 auto 20px;
     }
+    .fim p {
+        float: left;
+        text-align: left;
+        margin: 10px 0;
+    }
 }
