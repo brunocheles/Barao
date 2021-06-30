@@ -1,5 +1,5 @@
  /* --------------------------Introdução------------------------- */
-.intro{
+#other-pages{
     background-image: url("../images/bg-intro-sobre.jpg");
 }
 
@@ -20,9 +20,8 @@ section img {
 }
  
  /* --------------------------Qualidade-------------------------- */
-.qualidade .marca:after {
-    background-image: url("../images/linhas.png");
-    background-repeat: no-repeat;
+ .qualidade .marca:after {
+    background: url("../images/linhas.png") no-repeat;
     width: 642px;
     height: 81px;
     position: absolute;
@@ -30,5 +29,36 @@ section img {
     left: 159px;
 }
 .qualidade .itens-qualidade {
-    margin: 40px auto;
+    margin: 50px auto;
+}
+.qualidade .itens-qualidade div p {
+    padding: 0 2px 20px;
+}
+.qualidade .itens-qualidade hr {
+    margin: 2px auto 10px;
+}
+/* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
+/* -------------------------TABLETS----------------------- */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* ------------------Qualidade------------------ */
+    .qualidade .marca:after {
+        background: url("../images/linhas-menor.png") no-repeat;
+        top: 73px;
+        left: 126px;
+    }
+}
+/* -------------------------CELULARES----------------------- */
+@media only screen and (max-width: 787px) {
+    .pre-contato {
+        margin-top: 20px;
+    }
+    .qualidade .itens-qualidade {
+        margin: 20px auto;
+    }
+    .qualidade .marca:after {
+        display: none;
+    }
+    section .grid-16 {
+    margin-top: 30px;
+    }
 }

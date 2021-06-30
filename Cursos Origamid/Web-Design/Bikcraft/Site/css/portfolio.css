@@ -17,14 +17,15 @@ section .sec-cont {
 /* --------------------------Portfólio-------------------------- */
 .portfolio {
     background-color: #0A0A0A;
-    height: 640px;
+    height: 100%;
 }
 .portfolio .foto3 {
     margin-top: 20px;
 }
 .images {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 #tres-pontos {
-    margin-top: 5px;
+    margin: 5px 0 0;
+    padding-bottom: 5px;
 }

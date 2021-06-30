@@ -5,6 +5,7 @@
 }
 html {
     line-height: 1.15;
+    background-color: #F5F5F5;
 }
 body {
     text-align: center;
@@ -29,7 +30,8 @@ textarea {
     border-color: #D059FF;
 }
 #pre-btn {
-    margin: 20px auto;
+    margin: 0 auto 20px;
+    padding: 0;
 }
 hr {
     width: 5.5rem;
@@ -96,7 +98,6 @@ body p {
 header {
     background-color: #9D32C9;
     width: 100%;
-    position: fixed;
     z-index: 10;
 }
 header div {
@@ -137,25 +138,28 @@ nav ul li{
 #header-options:hover {
     color: #F5F5F5;
 }
-/* -------------------------------Introdução---------------------------- */
+/* --------------------------------------Introdução------------------------------------ */
 /* -----------------------Introdução Homepage----------------------- */
 .intro{
     background-size: cover;
-    padding-top: 80px;
+    height: 380px;
+}
+.intro .container {
+    padding-top: 60px;
 }
 .intro h4 {
     margin: 10px auto 80px;
 }
 /* ----------------------Introdução Other pages--------------------- */
-#other-pages{
-    height: 160px;
-}
 #hr-white {
     background-color: #F5F5F5;
     margin: 2px auto;
 }
-#other-pages h1 {
-    margin-top: 40px;
+#other-pages {
+    height: 160px;
+}
+#other-pages .container {
+    padding-top: 40px;
 }
 
 /* -----------------------------------------PRE-CONTATO----------------------------------------- */
@@ -175,7 +179,7 @@ nav ul li{
     margin-top: 5px;
 }
 .text-centro .hr-cima {
-    margin: 85px auto 5px;
+    margin: 80px auto 5px;
 }
 .text-centro p {
     margin-top: 0px;
@@ -238,8 +242,9 @@ nav ul li{
 /* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
 /* -------------------------TABLETS----------------------- */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
-
-
+    .intro .container {
+        padding-top: 40px;
+    }
 }
 /* -------------------------CELULARES----------------------- */
 @media only screen and (max-width: 787px) {
@@ -252,6 +257,9 @@ nav ul li{
         margin: 5px;
         text-align: center;
     }
+    .intro .container, #other-pages .container {
+        padding-top: 10px;
+    }
     #header-options {
         border: 4px solid #0A0A0A;
         float: left;
@@ -263,13 +271,8 @@ nav ul li{
         color: #F5F5F5;
         border-color: #F5F5F5;
     }
-    /* ---------------Introdução------------- */
-    .intro{
-        background-size: cover;
-        padding-top: 20px;
-    }
     #div-marca {
-        height: 100%    ;
+        height: 100%;
         display: block;
     }
     #marca {
@@ -278,5 +281,28 @@ nav ul li{
     #marca-button {
         left: 50%;
         transform: translateX(-50%);
+    }
+    /* ---------------Introdução------------- */
+    .intro{
+        padding-top: 30px;
+    }
+    .intro h4 {
+        margin: 10px auto 50px;
+    }
+    /* ----------------Footer-------------- */
+    .rodape .rodape-cont {
+        padding: 10px 0 0;
+    }
+    #ultimo {
+        margin-bottom: 0;
+    }
+    .text-centro .hr-cima {
+        margin: 70px auto 5px;
+    }
+    .rodape-cont .container {
+        padding-bottom: 0;
+    }
+    .rodape-cont div {
+        margin: 0 auto 20px;
     }
 }
