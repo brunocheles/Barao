@@ -142,7 +142,8 @@ nav ul li{
 /* -----------------------Introdução Homepage----------------------- */
 .intro{
     background-size: cover;
-    height: 380px;
+    height: 100%;
+    padding-bottom: 30px;
 }
 .intro .container {
     padding-top: 60px;
@@ -237,6 +238,54 @@ nav ul li{
 .fim p {
     float: left;
     margin: 18px 0 0 10px;
+}
+/* -----------------------------JAVASCRIPT--------------------------------- */
+.js [data-slide] {
+    position: relative;
+}
+.js [data-slide] > *{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.js [data-slide] > .portf-slides {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: 500ms;
+}
+.js [data-slide-nav] {
+    background-color: #0A0A0A;
+    margin-top: 15px 0;
+}
+.js [data-slide-nav] button {
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: none;
+    color: #0A0A0A;
+    background: #332F2E;
+}
+.js [data-slide-nav] button.active {
+    background: #9D32C9;
+}
+.js [data-anime] {
+    opacity: 0;
+}
+.js .anime {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: opacity 800ms, transform 800ms;
+}
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
 }
 
 /* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */

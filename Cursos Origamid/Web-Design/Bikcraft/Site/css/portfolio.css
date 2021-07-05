@@ -13,6 +13,9 @@ section .sec-cont {
 .sec-cont hr {
     margin: 5px auto;
 }
+.sec-cont div p {
+    padding: 0 30%;
+}
 
 /* --------------------------Portfólio-------------------------- */
 .portfolio {
@@ -25,10 +28,6 @@ section .sec-cont {
 .images {
     padding-top: 20px;
 }
-#tres-pontos {
-    margin: 5px 0 0;
-    padding-bottom: 5px;
-}
 
 /* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
 /* -------------------------TABLETS----------------------- */
@@ -36,10 +35,16 @@ section .sec-cont {
     section .sec-cont {
         margin: 20px auto;
     }
+    .sec-cont div p {
+        padding: 0 25%;
+    }
 }
 /* -------------------------CELULARES----------------------- */
 @media only screen and (max-width: 787px) {
     section .sec-cont {
         margin: 10px auto;
+    }
+    .sec-cont div p {
+        padding: 0;
     }
 }
