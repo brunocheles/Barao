@@ -13,3 +13,22 @@ if (window.SimpleSlide) {
 if (window.SimpleAnime) {
     new SimpleAnime();
 }
+const nav = document.getElementById('menu-header');
+const corpo = document.getElementById('corpo');
+const fixMenu = 'menu-fixo';
+const espTop = 'corpoMenu-fixo';
+
+function animeScroll () {
+    var windowTop = window.pageYOffset;
+    if ((windowTop) > 200) {
+        nav.classList.add(fixMenu);
+        corpo.classList.add(espTop);
+    }else {
+        nav.classList.remove(fixMenu);
+        corpo.classList.remove(espTop);
+    }
+}
+
+window.addEventListener('scroll', function() {
+    animeScroll();
+})
