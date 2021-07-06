@@ -279,13 +279,13 @@ nav ul li{
 .js [data-anime] {
     opacity: 0;
 }
-.js .anime {
-    opacity: 1;
-    transform: translate3d(0,0,0);
-    transition: opacity 800ms, transform 800ms;
-}
 .js .fadeInDown {
     transform: translate3d(0,-20px,0);
+}
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 600ms, transform 600ms;
 }
 
 /* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
