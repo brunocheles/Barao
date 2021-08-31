@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+.white {
+    color: #F5F5F5;
+}
+.pre-menu-bg {
+    background-color: #1226AA;
+}
+#pre-menu {
+    display: inline-flex;
+}
+.menu-bg {
+    background-color: #2764FE;
+}
+hr {
+    height: 2px;
+    background-color: black;
+}
