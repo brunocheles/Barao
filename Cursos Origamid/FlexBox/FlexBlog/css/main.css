@@ -1,23 +1,99 @@
-* {
+*{
     margin: 0;
     padding: 0;
     vertical-align:baseline;
     list-style:none;
     border:0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
-.white {
-    color: #F5F5F5;
+body {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #222222;
 }
-.pre-menu-bg {
-    background-color: #1226AA;
-}
-#pre-menu {
-    display: inline-flex;
-}
-.menu-bg {
-    background-color: #2764FE;
+img {
+    display: block;
+    max-width: 100%;
 }
 hr {
     height: 2px;
     background-color: black;
 }
+.white {
+    color: #F5F5F5;
+}
+header a {
+    color: #F5F5F5;
+}
+
+/* ---------------Pré Menu---------------*/
+#pre-menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pre-menu-bg {
+    background-color: #1226AA;
+}
+#pre-menu p {
+    margin: 0 10px 10px 10px;
+}
+
+
+/* ------------------Menu------------------*/
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    align-items: center;
+}
+.menu-bg {
+    background-color: #2764FE;
+}
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+#menu nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#menu nav ul a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
