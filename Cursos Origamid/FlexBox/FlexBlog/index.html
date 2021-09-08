@@ -63,8 +63,10 @@
                     </p>
                 </div>
 
-                <div class="sobre-imgs">
+                <div class="sobre-img">
                     <img src="./img/sobre1.jpg" alt="Sobre 1">
+                </div>
+                <div class="sobre-img">
                     <img src="./img/sobre2.jpg" alt="Sobre 2">
                 </div>
                 
@@ -75,25 +77,27 @@
                     Produtos
                 </h1>
 
-                <div class="produtos-item purple">
-                    <h1>
-                        Purple
-                    </h1>
-                    <img src="./img/produtos1.jpg" alt="Produto 1">
-                </div>
+                <div class="produtos-container">
+                    <div class="produtos-item purple">
+                        <h2>
+                            Purple
+                        </h2>
+                        <img src="./img/produtos1.jpg" alt="Produto 1">
+                    </div>
 
-                <div class="produtos-item pink">
-                    <h1>
-                        Pink
-                    </h1>
-                    <img src="./img/produtos2.jpg" alt="Produto 2">
-                </div>
+                    <div class="produtos-item pink">
+                        <h2>
+                            Pink
+                        </h2>
+                        <img src="./img/produtos2.jpg" alt="Produto 2">
+                    </div>
 
-                <div class="produtos-item blue">
-                    <h1>
-                        Blue
-                    </h1>
-                    <img src="./img/produtos3.jpg" alt="Produto 3">
+                    <div class="produtos-item blue">
+                        <h2>
+                            Blue
+                        </h2>
+                        <img src="./img/produtos3.jpg" alt="Produto 3">
+                    </div>
                 </div>
             </section>
 
@@ -102,11 +106,9 @@
                     <h2>
                         Cobre
                     </h2>
-                    <hr>
                     <span>
                         <sup>R$</sup>19
                     </span>
-                    <hr>
                     <ul>
                         <li>
                             Planos Ilimitados
@@ -128,11 +130,10 @@
                     <h2>
                         Prata
                     </h2>
-                    <hr>
                     <span>
                         <sup>R$</sup>39
                     </span>
-                    <hr>
+
                     <ul>
                         <li>
                             Planos Ilimitados
@@ -157,11 +158,9 @@
                     <h2>
                         Ouro
                     </h2>
-                    <hr>
                     <span>
                         <sup>R$</sup>79
                     </span>
-                    <hr>
                     <ul>
                         <li>
                             Planos Ilimitados
@@ -237,8 +236,8 @@
                 </div>
             </section>
 
-            <section>
-                <div>
+            <section id="newsletter">
+                <div class="newsletter-info">
                     <h1>
                         Newsletter
                     </h1>
@@ -246,12 +245,14 @@
                         assine e fique por dentro das novidades
                     </p>
                 </div>
-                <div>
+
+                <form class="newsletter-form">
                     <input type="text" placeholder="Seu e-mail">
-                    <p>ASSINAR</p>
-                </div>
+                    <button type="submit">ASSINAR</button>
+                </form>
             </section>
         </main>
+
         <footer>
             <p>
                 FlexBlog &copy; Todos os direitos reservados
